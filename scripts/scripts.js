@@ -20,17 +20,17 @@ $(document).ready(function(){
     function modifier(){
 
       if(i % 3 === 0){
-        //(".result").text(badLuck);
-        console.log(badLuck);
+        $(".result").append("<li>" + badLuck + "</li>");
+        //console.log(badLuck);
       }else if(i === 1 || i >= 10 && i <= 19 || i === 31 || i === 41){
-        //$(".result").text(beep);
-        console.log(beep);
+        $(".result").append("<li>" + beep + "</li>");
+        //console.log(beep);
       }else if(i === 20 || i === 40 || i === 50){
-        //$(".result").text(boop);
-        console.log(boop);
+        $(".result").append("<li>" + boop + "</li>");
+        //console.log(boop);
       }else{
-        //$(".result").text(i);
-        console.log(i);
+        $(".result").append("<li>" + i + "</li>");
+        //console.log(i);
       }
     }// end modifier
 

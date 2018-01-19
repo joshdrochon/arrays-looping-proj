@@ -1,5 +1,11 @@
+#initially-showing{
+  margin-top: 10px;
+}
+
 #initially-hidden{
   display: none;
+  text-align: center;
+  margin-top: 10px;
 }
 
 li{
