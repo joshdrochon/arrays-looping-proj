@@ -10,18 +10,18 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="initially-showing">
+      <div id="initially-showing">
         <h2>Enter a number!</h2></br>
-        <h3>What are your five favorite activities?</h3>
         <form id="form1">
           <div class="form-group">
-            <label for="number">Enter a number, any number!</label>
-            <input id="input-num" type="text" value="ex. 45">
+            <label for="number"> Enter a number between 1 & 50.</label>
+            <input id="input-num" type="text" value="">
           </div>
           <button id="btn" class="btn btn-success" type="submit">Submit</button>
         </form>
       </div><!--end initially-showing-->
-      <div class="initiall-hidden">
+      <div id="initially-hidden">
+        <span class="result"></span>
         <p>I am a hidden paragraph within initiall-hidden!</p>
       </div><!--end initiall-hidden-->
     </div><!--end container-fluid-->
