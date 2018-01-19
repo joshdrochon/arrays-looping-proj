@@ -42,4 +42,10 @@ $(document).ready(function(){
     $("#initially-hidden").toggle();
 
   }); //end submit handleer
+
+  $("#restart").click(function(event){
+    $("#initially-showing").toggle();
+    $("#initially-hidden").toggle();
+  });
+
 }); //end doc ready handler
