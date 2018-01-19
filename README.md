@@ -6,7 +6,7 @@
 
 ## Description
 
-_Here you'll find all the important information concerning Carol's Cupcakes, such as history, and images._
+_SPECS: takes in a number from a user._
 
 ## Setup/Installation Requirements
 
